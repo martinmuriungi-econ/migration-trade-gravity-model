@@ -1,0 +1,55 @@
+# Local/private data
+data/raw/**
+data/intermediate/**
+data/processed/**
+!data/README.md
+!data/codebook.md
+
+# Stata data, logs, and temporary files
+*.dta
+*.ster
+*.gph
+*.smcl
+*.log
+__000*.tmp
+
+# Local path/config files
+config/local_paths.do
+config/private_paths.do
+.env
+.env.*
+
+# Drafts, comments, and office temporary files
+~$*.docx
+*.tmp
+*.bak
+*.wbk
+
+# Generated scratch material from local QA / Codex work
+work/
+outputs/
+output/intermediate/
+rendered*/
+*_rendered/
+*_scratch/
+
+# Python / R / system cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Large local archives
+*.zip
+*.7z
+*.rar
+
