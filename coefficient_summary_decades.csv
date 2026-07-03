@@ -1,0 +1,33 @@
+direction,model_id,model_group,model_name,migrant_variable,fixed_effects,decade,coefficient,std_error,z_stat,p_value,significance,n_obs,status
+Africa_to_GCC_exports,D1970,Decade-specific,Separate regression: change ending 1970,delta_migrants,Origin FE + destination FE,1970,,,,,,66,not estimated: insufficient observations after FE/separation
+Africa_to_GCC_exports,D1980,Decade-specific,Separate regression: change ending 1980,delta_migrants,Origin FE + destination FE,1980,-8.82729044358e-07,2.4346023e-06,-.36257631,.71692145,,90,estimated
+Africa_to_GCC_exports,D1990,Decade-specific,Separate regression: change ending 1990,delta_migrants,Origin FE + destination FE,1990,-1.32943312420e-06,1.2290247e-06,-1.0816976,.27938694,,162,estimated
+Africa_to_GCC_exports,D2000,Decade-specific,Separate regression: change ending 2000,delta_migrants,Origin FE + destination FE,2000,1.10828760440e-06,.000016667309,.066494696,.94698399,,222,estimated
+Africa_to_GCC_exports,P4_1980,Interaction,Interaction slope: change ending 1980,delta_migrants,Origin FE + destination FE + year FE,1980,-1.51013807639e-06,2.2969964e-06,-.6574403,.51089782,,666,estimated
+Africa_to_GCC_exports,P4_1990,Interaction,Interaction slope: change ending 1990,delta_migrants,Origin FE + destination FE + year FE,1990,3.21687031758e-07,1.2387790e-06,.25968075,.79511005,,666,estimated
+Africa_to_GCC_exports,P4_2000,Interaction,Interaction slope: change ending 2000,delta_migrants,Origin FE + destination FE + year FE,2000,-6.26633701794e-06,.000011589225,-.54070371,.5887118,,666,estimated
+Africa_to_GCC_exports,H1,Origin-year/destination-year,"Pooled stock, structural FE",ln_migrants,Pair FE + origin-year FE + destination-year FE,,.5367488391823813,.29394826,1.8259977,.067850612,*,304,estimated
+Africa_to_GCC_exports,H2,Origin-year/destination-year,"Lagged stock, structural FE",ln_L_migrants,Pair FE + origin-year FE + destination-year FE,,-.3145303789375463,.4520905,-.69572437,.48660144,,269,estimated
+Africa_to_GCC_exports,H3,Origin-year/destination-year,"Migrant change, structural FE",delta_migrants,Pair FE + origin-year FE + destination-year FE,,-6.91555341459e-07,1.2090776e-06,-.57196933,.56734276,,269,estimated
+Africa_to_GCC_exports,P1,Primary,Pooled benchmark-year stock,ln_migrants,Origin FE + destination FE + year FE,,.4577981506903988,.12473541,3.6701539,.00024240463,***,968,estimated
+Africa_to_GCC_exports,P2,Primary,Lagged migrant stock,ln_L_migrants,Origin FE + destination FE + year FE,,.3810516128049175,.12006229,3.1737826,.0015046631,***,722,estimated
+Africa_to_GCC_exports,P3,Primary,Pooled decadal migrant change,delta_migrants,Origin FE + destination FE + year FE,,9.26169389183e-07,1.0741152e-06,.86226267,.38854298,,722,estimated
+Africa_to_GCC_exports,H4_1980,Structural interaction,Structural interaction slope ending 1980,delta_migrants,Pair FE + origin-year FE + destination-year FE,1980,5.54784834120e-06,5.3177846e-06,1.0432631,.29682645,,269,estimated
+Africa_to_GCC_exports,H4_1990,Structural interaction,Structural interaction slope ending 1990,delta_migrants,Pair FE + origin-year FE + destination-year FE,1990,1.08599562334e-06,1.5728721e-06,.69045389,.48990878,,269,estimated
+Africa_to_GCC_exports,H4_2000,Structural interaction,Structural interaction slope ending 2000,delta_migrants,Pair FE + origin-year FE + destination-year FE,2000,.0000283561996463,.000015912417,1.7820171,.074746437,*,269,estimated
+GCC_to_Africa_exports,D1970,Decade-specific,Separate regression: change ending 1970,delta_migrants,Origin FE + destination FE,1970,,,,,,66,not estimated: insufficient observations after FE/separation
+GCC_to_Africa_exports,D1980,Decade-specific,Separate regression: change ending 1980,delta_migrants,Origin FE + destination FE,1980,-1.05876029256e-06,3.1198977e-06,-.33935738,.73434049,,120,estimated
+GCC_to_Africa_exports,D1990,Decade-specific,Separate regression: change ending 1990,delta_migrants,Origin FE + destination FE,1990,7.15582986262e-06,1.1439661e-06,6.2552814,3.9679909e-10,***,216,estimated
+GCC_to_Africa_exports,D2000,Decade-specific,Separate regression: change ending 2000,delta_migrants,Origin FE + destination FE,2000,.0000272033745107,.000030027642,.90594441,.36496529,,258,estimated
+GCC_to_Africa_exports,P4_1980,Interaction,Interaction slope: change ending 1980,delta_migrants,Origin FE + destination FE + year FE,1980,1.71964045775e-06,4.3087489e-06,.39910436,.6898163,,750,estimated
+GCC_to_Africa_exports,P4_1990,Interaction,Interaction slope: change ending 1990,delta_migrants,Origin FE + destination FE + year FE,1990,4.01111032176e-06,1.6803524e-06,2.3870649,.01698349,**,750,estimated
+GCC_to_Africa_exports,P4_2000,Interaction,Interaction slope: change ending 2000,delta_migrants,Origin FE + destination FE + year FE,2000,.0000208889259038,.00001397534,1.494699,.13499303,,750,estimated
+GCC_to_Africa_exports,H1,Origin-year/destination-year,"Pooled stock, structural FE",ln_migrants,Pair FE + origin-year FE + destination-year FE,,-.0075678816830731,.54990017,-.013762283,.98901963,,448,estimated
+GCC_to_Africa_exports,H2,Origin-year/destination-year,"Lagged stock, structural FE",ln_L_migrants,Pair FE + origin-year FE + destination-year FE,,-.717651528285127,.55518055,-1.2926453,.19613376,,437,estimated
+GCC_to_Africa_exports,H3,Origin-year/destination-year,"Migrant change, structural FE",delta_migrants,Pair FE + origin-year FE + destination-year FE,,6.93534234051e-06,2.3271934e-06,2.9801316,.0028812462,***,437,estimated
+GCC_to_Africa_exports,P1,Primary,Pooled benchmark-year stock,ln_migrants,Origin FE + destination FE + year FE,,.1132750047022685,.11858597,.9552142,.33946937,,1026,estimated
+GCC_to_Africa_exports,P2,Primary,Lagged migrant stock,ln_L_migrants,Origin FE + destination FE + year FE,,.1190831858784777,.10531635,1.1307189,.25817344,,816,estimated
+GCC_to_Africa_exports,P3,Primary,Pooled decadal migrant change,delta_migrants,Origin FE + destination FE + year FE,,2.24451442186e-06,9.8655607e-07,2.2751005,.022899896,**,816,estimated
+GCC_to_Africa_exports,H4_1980,Structural interaction,Structural interaction slope ending 1980,delta_migrants,Pair FE + origin-year FE + destination-year FE,1980,.0000128606021524,.000014509822,.8863377,.37543556,,437,estimated
+GCC_to_Africa_exports,H4_1990,Structural interaction,Structural interaction slope ending 1990,delta_migrants,Pair FE + origin-year FE + destination-year FE,1990,.0000149540016069,7.1611303e-06,2.088218,.036778171,**,437,estimated
+GCC_to_Africa_exports,H4_2000,Structural interaction,Structural interaction slope ending 2000,delta_migrants,Pair FE + origin-year FE + destination-year FE,2000,.0000779201158824,.000049727834,1.5669316,.11713067,,437,estimated

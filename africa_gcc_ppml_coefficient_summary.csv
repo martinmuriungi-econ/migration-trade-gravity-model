@@ -1,0 +1,15 @@
+trade_direction,model_number,model_specification,migration_measure,fixed_effects,coefficient_variable,coefficient,std_error,p_value,observations,pseudo_r2
+Africa to GCC exports,1,"Current stock with origin, destination and year FE",Current migrant stock,Origin + destination + year FE,ln_migrants,-0.24759462,0.19141684,0.19584371,216,0.8960
+Africa to GCC exports,2,"Lagged stock with origin, destination and year FE",Lagged migrant stock,Origin + destination + year FE,ln_L_migrants,-0.26718377,0.13725959,0.05158772,178,0.8908
+Africa to GCC exports,3,"Migration flow with origin, destination and year FE",Change in migrant stock,Origin + destination + year FE,delta_migrants,-0.00000200,0.00000080,0.01200782,178,0.8910
+Africa to GCC exports,4,Current stock with origin-year and destination-year FE,Current migrant stock,Origin-year + destination-year FE,ln_migrants,-0.12277117,0.18651736,0.51039088,191,0.9562
+Africa to GCC exports,5,Lagged stock with origin-year and destination-year FE,Lagged migrant stock,Origin-year + destination-year FE,ln_L_migrants,-0.18072011,0.19459243,0.35303891,164,0.9538
+Africa to GCC exports,6,Migration flow with origin-year and destination-year FE,Change in migrant stock,Origin-year + destination-year FE,delta_migrants,-0.00000215,0.00000127,0.08956224,164,0.9548
+Africa to GCC exports,7,Current stock with pair and year FE; appendix robustness,Current migrant stock,Pair FE robustness,ln_migrants,-0.12708886,0.17814662,0.47560152,216,0.9146
+GCC to Africa exports,1,"Current stock with origin, destination and year FE",Current migrant stock,Origin + destination + year FE,ln_migrants,-0.30411957,0.16020080,0.05764803,224,0.8067
+GCC to Africa exports,2,"Lagged stock with origin, destination and year FE",Lagged migrant stock,Origin + destination + year FE,ln_L_migrants,-0.30295994,0.15846124,0.05589074,182,0.7907
+GCC to Africa exports,3,"Migration flow with origin, destination and year FE",Change in migrant stock,Origin + destination + year FE,delta_migrants,-0.00000306,0.00000101,0.00240357,182,0.7928
+GCC to Africa exports,4,Current stock with origin-year and destination-year FE,Current migrant stock,Origin-year + destination-year FE,ln_migrants,-0.15151918,0.21841894,0.48786473,199,0.9038
+GCC to Africa exports,5,Lagged stock with origin-year and destination-year FE,Lagged migrant stock,Origin-year + destination-year FE,ln_L_migrants,-0.15920438,0.26033944,0.54085129,168,0.8936
+GCC to Africa exports,6,Migration flow with origin-year and destination-year FE,Change in migrant stock,Origin-year + destination-year FE,delta_migrants,-0.00000486,0.00000315,0.12304805,168,0.8993
+GCC to Africa exports,7,Current stock with pair and year FE; appendix robustness,Current migrant stock,Pair FE robustness,ln_migrants,-0.34663935,0.27875704,0.21367708,218,0.8739
